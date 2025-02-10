@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContainer {
+  display: flex;
+  flex: 1;
+}
+
+.leftContainer, .middleContainer, .rightContainer {
+  height: 100%;
+}
+
+.navbarContainer {
+  height: 80px;
+}

@@ -1,0 +1,6 @@
+.rightContainer {
+  width: 20%;
+  height: calc(100vh - 80px);
+  /* background-color: #e74c3c; 구간 나눔 */
+  float: left;
+}
