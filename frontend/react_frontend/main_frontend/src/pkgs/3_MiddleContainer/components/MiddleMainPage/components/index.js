@@ -1,1 +1,1 @@
-import * from "./MiddleLoginPage/MiddleLoginPage"
+export * from "./MiddleLoginPage/MiddleLoginPage"

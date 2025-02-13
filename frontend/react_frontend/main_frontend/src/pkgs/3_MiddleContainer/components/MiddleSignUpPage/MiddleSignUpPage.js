@@ -13,7 +13,10 @@ export const MiddleSignUpPage = () => {
 
         {/* 이메일 그룹 */}
         <div className="middleMainPageInputGroup">
-          <input type="email" className="middleMainPageAccountInput" placeholder="이메일" />
+          <div className="middleMainPageInputWithButton">
+            <input type="email" className="middleMainPageAccountInput" placeholder="이메일" />
+            <button className="middleMainPageCheckButton">전송</button>
+          </div>
           <div className="middleMainPageInputWithButton">
             <input type="text" className="middleMainPageAccountInput" placeholder="이메일 확인 메시지" />
             <button className="middleMainPageCheckButton">확인</button>
@@ -22,8 +25,12 @@ export const MiddleSignUpPage = () => {
 
         {/* 비밀번호 그룹 */}
         <div className="middleMainPageInputGroup">
-          <input type="password" className="middleMainPageAccountInput" placeholder="비밀번호" />
-          <input type="password" className="middleMainPageAccountInput" placeholder="비밀번호 확인" />
+          <div className="middleMainPageInputWithButton">
+            <input type="password" className="middleMainPageAccountInput" placeholder="비밀번호" />
+          </div>
+          <div className="middleMainPageInputWithButton">
+            <input type="password" className="middleMainPageAccountInput" placeholder="비밀번호 확인" />
+          </div>
         </div>
 
         {/* 닉네임 & 생년월일 그룹 */}
@@ -32,7 +39,9 @@ export const MiddleSignUpPage = () => {
             <input type="text" className="middleMainPageAccountInput" placeholder="닉네임" />
             <button className="middleMainPageCheckButton">확인</button>
           </div>
-          <input type="text" className="middleMainPageAccountInput" placeholder="생년월일" />
+          <div className="middleMainPageInputWithButton">
+            <input type="text" className="middleMainPageAccountInput" placeholder="생년월일" />
+          </div>
         </div>
 
         {/* 회원가입 버튼 */}
